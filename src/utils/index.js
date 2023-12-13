@@ -1,8 +1,9 @@
 /* eslint-disable no-bitwise, radix, no-param-reassign */
 /**
- * https://github.com/facebook/react-native/blob/master/Libraries/Utilities/MatrixMath.js
+ * https://github.com/facebook/react-native/blob/0.71-stable/Libraries/Utilities/MatrixMath.js
+ * Removed in react native 0.72
  * */
-import MatrixMath from 'react-native/Libraries/Utilities/MatrixMath';
+import MatrixMath from './MatrixMath';
 
 const { createIdentityMatrix } = MatrixMath;
 const { multiplyInto } = MatrixMath;
